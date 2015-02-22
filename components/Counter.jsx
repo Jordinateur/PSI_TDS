@@ -7,11 +7,8 @@ var Counter = React.createClass({
 	},
 	componentDidMount: function() {
 		var that = this;
-		console.log('componentDidMount');
 		Store.bind('change', function(){
-			console.log('MicroEvent bind');
-			that.updateCount();
-			
+			that.updateCount();			
 		});	
 	},
 	componentWillMount: function() {
@@ -26,7 +23,7 @@ var Counter = React.createClass({
 		return (
 			<div>
 				<div>{this.state.count}</div>
-				<button onClick={Actions.increment}>INCR</button>
+				<button onClick={Actions.increment}>INCR</button><button onClick={Actions.decrement}>DECR</button>
 			</div>
 		);
 	}

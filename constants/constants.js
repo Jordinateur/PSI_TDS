@@ -1,5 +1,6 @@
 var Constants = {
 
-	INCREMENT: 'INCREMENT'
+	INCREMENT: 'INCREMENT',
+	DECREMENT: 'DECREMENT'
 
 }

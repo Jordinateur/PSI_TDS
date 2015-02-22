@@ -1,8 +1,12 @@
 var Actions = {
 	increment: function(){
-		console.log('Actions increment');
 		MyDispatcher.Dispatch({
 			actionType: Constants.INCREMENT
+		});
+	},
+	decrement: function(){
+		MyDispatcher.Dispatch({
+			actionType: Constants.DECREMENT
 		});
 	}
 }
