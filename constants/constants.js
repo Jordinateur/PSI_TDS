@@ -1,6 +1,0 @@
-var Constants = {
-
-	INCREMENT: 'INCREMENT',
-	DECREMENT: 'DECREMENT'
-
-}
