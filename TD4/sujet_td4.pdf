@@ -1,0 +1,8 @@
+--2015-03-25 16:18:43--  http://home.mis.u-picardie.fr/~lemahec/PSI/lib/exe/fetch.php?media=psi-tp3-intro-c.pdf
+Résolution de home.mis.u-picardie.fr (home.mis.u-picardie.fr)... 194.57.107.86
+Connexion vers home.mis.u-picardie.fr (home.mis.u-picardie.fr)|194.57.107.86|:80... connecté.
+requête HTTP transmise, en attente de la réponse... 200 OK
+Taille : 69946 (68K) [application/pdf]
+fetch.php?media=psi-tp3-intro-c.pdf: Aucun fichier ou dossier de ce type
+
+Impossible d'écrire dans «fetch.php?media=psi-tp3-intro-c.pdf» (Aucun fichier ou dossier de ce type).
